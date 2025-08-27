@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
-import '../color.dart';
+import '../constant/color.dart';
 import 'custom_network_image.dart';
 import 'custom_sizedbox.dart';
 import 'custom_text_widget.dart';
@@ -53,7 +53,7 @@ class SocialButton extends StatelessWidget {
         backgroundColor: whiteColor,
         foregroundColor: blackColor,
         padding: EdgeInsets.symmetric(vertical: 19.h, horizontal: 20.w),
-        // minimumSize: Size.fromHeight(60.h),
+        // q,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(50.r),
           side: BorderSide(color: blackColor.withValues(alpha: 0.1), width: 1),

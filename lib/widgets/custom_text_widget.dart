@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-import '../color.dart';
-import '../constant.dart';
+import '../constant/color.dart';
+import '../constant/constant.dart';
 
 class TextWidget extends StatelessWidget {
   final String text;

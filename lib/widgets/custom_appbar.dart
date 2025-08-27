@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../color.dart';
-import '../constant.dart';
+import '../constant/color.dart';
+import '../constant/constant.dart';
 import 'custom_text_widget.dart';
 
 PreferredSizeWidget customAppbar({required String title, String? svgUrl, bool centerTittle = false, List<Widget>? actionWidget}) {

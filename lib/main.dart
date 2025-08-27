@@ -1,3 +1,4 @@
+import 'package:demo_widgets/notification_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
@@ -6,7 +7,10 @@ import 'constant/color.dart';
 import 'constant/constant.dart';
 import 'views/splash_screen/splash_screen.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await NotificationService.init();
   runApp(MyApp());
 }
 

@@ -1,12 +1,12 @@
+import 'package:demo_widgets/widgets/custom_sizedbox.dart';
+import 'package:demo_widgets/widgets/custom_text_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-import '../color.dart';
-import '../constant.dart';
-import 'custom_sizedbox.dart';
-import 'custom_text_widget.dart';
+import '../constant/color.dart';
+import '../constant/constant.dart';
 
 class TextFieldWidget extends GetView {
   const TextFieldWidget({
